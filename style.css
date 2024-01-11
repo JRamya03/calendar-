@@ -1,0 +1,58 @@
+body {
+    margin: 50px;
+    padding: 0;
+}
+
+.cal {
+    width: 50%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.heading {
+    color: #fff;
+    background-color: #51334f;
+    text-align: center;
+    padding : 5px;
+   
+}
+
+td,
+th {
+    border: solid 1px #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: #ee9ef5;
+    
+}
+.cal-btn
+{
+    display :flex;
+    justify-content:space-between;
+    padding : 10px;
+}
+.cal-btn button 
+{
+
+    background-color :#51334f;
+    color : white;
+    padding : 10px;
+    border : none;
+    border-radius : 5px;
+}
+button:hover 
+{
+    background-color : #ee9ef5;
+    color: grey;
+}
+
